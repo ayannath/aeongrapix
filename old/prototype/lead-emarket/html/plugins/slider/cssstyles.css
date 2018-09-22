@@ -1,0 +1,14 @@
+
+#container { width:564px; height:441px; position:absolute; left:408px; top:105px; }
+#container .prevButton { width:68px; height:135px; position:absolute; background:url(img/slide-lft_btn.png) no-repeat 0 center; top:146px; left:0; cursor:pointer; z-index:200; }
+/*#container .prevButton:hover { background-position:0 -167px; }*/
+#container .nextButton { width:68px; height:135px; position:absolute; background:url(img/slide-rht_btn.png) no-repeat right center; top:146px; right:0; cursor:pointer; z-index:50; }
+/*#container .nextButton:hover { background-position:right bottom; right:0; }*/
+
+#container ul { width:428px; height:441px; position:absolute; left:68px; top:0; overflow:hidden; background:url(img/slide-hldr_bg.png) no-repeat; }
+#container li:first-child { display:list-item; position:absolute; }
+#container li { position:absolute; display:none; }
+#container li .img-hldr { width:182px; height:244px; position:absolute; left:26px; top:90px; /*display:none;*/ }
+#container li .desc { width:180px; height:120px; position:absolute; left:238px; top:144px; overflow:hidden; }
+#container li .desc h3 { font:normal 24px 'Sanchez', serif; color:#494949; margin-bottom:6px; }
+#container li .desc p strong { font-size:14px; color:#0070ca; }

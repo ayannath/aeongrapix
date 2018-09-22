@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; }
+body { background: url(../images/body_bg.jpg) center #ebe1bc; }
+img { border: none; vertical-align: middle; }
+a { text-decoration: none; outline: none; color: inherit; }
+li { list-style: none; }
+.allWidth { width: 100%; float: left; }
+.mainDiv { width: 916px; margin: 0 auto; position: relative; }
+.clear { font-size: 0; line-height: 0; clear: both; }
+/* Clearfix */
+.clearfix:before,
+.clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/*------ / general section ------*/
+
+/*------ header section ------*/
+.header { background: url(../images/texture_bg.png) #270000; margin-bottom: 57px; }
+.header .mainDiv { height: 53px; }
+.header .logo { width: 241px; height: 233px; position: absolute; z-index: 100; left: 343px; /*display:none;*/ }
+#topnav,
+#mobileselect { width: auto; float: left; }
+#mobileselect li { width: auto; float: left; margin: 0 20px; }
+#mobileselect li:nth-child(4) { margin-left: 360px; }
+#mobileselect li a { width: auto; float: left; display: block; font: normal 18px/53px 'AgencyFBRegular'; color: #ab9ca0; text-transform: uppercase; }
+#mobileselect li a:hover { color: #f5ebc1; }
+.hmBanner { height: 427px; position: relative; padding-bottom: 20px; background: url(../images/banner_shdw.png) no-repeat center bottom; }
+.hmBanner .bannerHldr { border: 6px solid #fff; }
+ul.s-net { width: 63px; position: absolute; right: -63px; top: 13px; }
+ul.s-net li { margin-bottom: 10px; }
+/*------ / header section ------*/
+
+/*------ body section ------*/
+.bodySec { }
+.bodySec h2 { font: normal 28px 'AgencyFBBold'; }
+.bodySec p { font: normal 20px/25px 'AgencyFBRegular'; }
+.bodySec.hmCnt { text-align: center; }
+ul.tagBtn { width: 100%; float: left; padding: 20px 0 0; }
+ul.tagBtn li { width: 241px; height: 98px; float: left; margin: 0 30px; position: relative; }
+ul.tagBtn li img { position: absolute; height: 100%; left: 0; bottom: 0; }
+ul.tagBtn li a { width: 160px; height: 76px; position: absolute; left: 0; display: table-cell; vertical-align: middle; text-align: center; padding: 22px 42px 0; font: normal 30px 'RockwellCondensedRegular'; color: #290000; /*background:#f00;*/ }
+/*------ / body section ------*/
+
+/*------ footer section ------*/
+.footer { background: url(../images/texture_bg.png) #270000; }
+.footer .mainDiv { background: url(../images/footer_dash-bg.png) no-repeat center 3px; padding: 18px 0 20px; }
+ul.ftrNav { width: 100%; float: left; padding: 0 0 30px; background: url(../images/footer_nav-bg.png) no-repeat center 70%; }
+ul.ftrNav li { width: auto; float: left; border-right: 1px solid #fff; padding: 0 10px; font: normal 16px 'AgencyFBRegular'; color: #f3e9c5; }
+ul.ftrNav li:first-child { padding-left: 0; }
+ul.ftrNav li:last-child { border: none; padding-right: 0; }
+ul.ftrNav li a { display: block; }
+ul.ftrNav li a:hover { color: #fff; }
+.footer p { width: auto; float: left; font: normal 14px 'RockwellCondensedRegular'; color: #f3e9c5; }
+.footer p+p { float: right; }
+/*------ / footer section ------*/
+
+/*------ contact form section ------*/
+.form_con { width: 350px; float: left; border-right: 1px solid #999; padding: 0 0 0 90px; }
+.formfld { width: 350px; float: left; padding: 5px 0; }
+.formfld label { width: 100px; float: left; font: normal 18px 'RockwellCondensedRegular'; }
+.textfld { width: 200px; height: 25px; float: left; padding: 4px; }
+.textarea { width: 200px; height: 100px; float: left; padding: 4px; }
+.button { width: 75px; height: 30px; font-size: 14px; float: left; color: #600; font-family: 'AgencyFBBold'; }
+.contact_info { width: 300px; float: left; padding: 0 0 0 50px; }
+.contact_info p { font: normal 22px/28px 'RockwellCondensedRegular'; }
+/*------ / contact form section ------*/

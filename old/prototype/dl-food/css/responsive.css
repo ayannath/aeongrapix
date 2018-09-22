@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1024px) {
+	body { }
+	.mainDiv { width: 98%; }
+	ul.s-net { display: none; }
+	.header { margin-bottom: 15px; }
+	.hmBanner { height: auto; }
+	.bannerHldr img { width: 100%; }
+	ul.tagBtn li { width: 30%; margin: 0 1.66%; }
+	ul.tagBtn li img { width: 100%; }
+	ul.tagBtn li a { width: 80%; height: 76px; position: absolute; left: 0; display: block; padding: 22px 10% 0; }
+}
+
+@media screen and (max-width: 768px) {
+	body { }
+	.header { }
+	.header .logo { width: 150px; position: absolute; left: 0; }
+	.header .logo img { width: 100%; }
+	#mobileMenu_mobileselect { width:60%; height: 29px; position:absolute; right:0; top:10px; background: #fff; border: 1px solid #e68724; border-radius: 5px; display: none; padding:5px; }
+	ul.tagBtn li a { font-size: 22px; }
+	.form_con { width:100%; float: left; border-right:none; background:url(../images/footer_nav-bg.png) no-repeat center 96%; padding:0 0 30px 0; }
+	.formfld { width:100%; }
+	.formfld label { width:18%; }
+	.textfld,
+	.textarea { width:80%; float:right; }
+	.button { margin-left:1.5%; }
+	.contact_info { width: 100%; height: auto; float: left; }
+}

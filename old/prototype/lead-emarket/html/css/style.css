@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Sanchez);
+
+* { margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font: normal 13px Arial, Helvetica, sans-serif; color: #444; }
+img { border: none; vertical-align: middle; }
+a { text-decoration: none; outline: none; color: inherit; }
+li { list-style: none; }
+.allWidth { width: 100%; float: left; }
+.mainDiv { width: 1000px; margin: 0 auto; position: relative; }
+.clear { font-size:0; line-height:0; clear:both; }
+/* push footer */
+.wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -252px; background-color:#e7e0c6; /* the bottom margin is the negative value of the footer's height */ }
+.push { height:252px; /* .push must be the same height as .footer */ }
+/*------ / general section ------*/
+
+/*------ header section ------*/
+.header { height: 636px; background: url(../images/header_bg.jpg) repeat-x center top; }
+.header .mainDiv { height: 636px; }
+.logo { width: 221px; height: 185px; position: absolute; left: 31px; top: 30px; }
+.nav { width: auto; position: absolute; right: 25px; top: 20px; }
+.nav ul { width: auto; float: right; background: #089ae6; }
+.nav ul li { width: auto; float: left; }
+.header .bnrSlogan { width: auto; position: absolute; left: 15px; top: 294px; }
+.innerHeader { height: 300px; background: url(../images/header_bg.jpg) repeat-x center bottom; }
+.innerHeader .bnrSlogan { width: auto; position: absolute; right: 15px; top: 100px; }
+/*------ / header section ------*/
+
+/*------ body section ------*/
+.bodySec { background: url(../images/cream_pattern.jpg) repeat-x 0 0 #e7e0c4; padding: 20px 0 50px; }
+.bodySec h1 { font: normal 30px 'Sanchez', serif; margin-bottom: 20px; }
+.bodySec p { margin-bottom: 10px; }
+/* home section */
+.hmCntImgHldr { width: 201px; height: 175px; float: left; border: 5px solid #fff; box-shadow: 0 0 5px #666; margin: 0 15px 15px 0; }
+ul.hmServiceHldr { width: 100%; float: left; }
+ul.hmServiceHldr li { width: 318px; height: 310px; display: inline-block; margin: 0 6px; }
+ul.hmServiceHldr li .imgHldr { width: 318px; height: 168px; display: table-cell; vertical-align: middle; text-align: center; }
+ul.hmServiceHldr li .desc { width: 318px; text-align: justify; }
+ul.hmServiceHldr li .desc h2 { font: normal 26px 'Sanchez', serif; margin-bottom: 8px; text-align: center; }
+ul.hmServiceHldr li .desc p.rMore { width: 87px; height: 24px; margin: 8px auto; text-indent: -999em; }
+ul.hmServiceHldr li .desc p.rMore a { width: 87px; height: 24px; display: block; background: url(../images/rMore_btn.png) no-repeat center; }
+/*------ / body section ------*/
+
+/*------ footer section ------*/
+.footer { height:203px; background: #271a0c; border-top: 5px solid #c7a04d; padding: 33px 0 10px; }
+.footer .ftrHldr { width: 190px; display: inline-block; vertical-align: top; margin-right: 76px; color: #aeaeae; }
+.footer .ftrHldr.last { margin-right: 0 !important; }
+.footer .ftrHldr ul li { margin-bottom: 6px; }
+.footer .ftrHldr h2 { font: normal 18px 'Sanchez', serif; color: #aeaeae; padding-bottom: 10px; border-bottom: 1px dashed #6c4925; margin-bottom: 8px; }
+.footer .ftrBtm { border-top: 1px dashed #6c4925; margin: 20px 0 0; padding: 15px 0 0; text-align: center; color: #a36525; }
+/*------ / footer section ------*/

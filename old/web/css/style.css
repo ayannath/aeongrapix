@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Style Sheet for aeongrapix.com
+Author	:Ayan Nath
+Contact	:ayan@aeongrapix.com, ayan26@gmail.com
+Date	:2010/07/01
+*/
+
+
+* { margin:0; padding:0; }
+body { background:url(../images/body-banner_bg.jpg) no-repeat center top #000; font:normal 14px/20px 'Trebuchet MS', Arial, Helvetica, sans-serif; color:#6e6e6e; color:#6e6e6e; }
+a { text-decoration:none; outline:none; }
+img { border:none; }
+li { list-style:none; }
+/* general-section starts */
+
+#mainDiv { width:980px; margin:0 auto; }
+.clear { font-size:0; line-height:0; clear:both; }
+#leftSec a, #rightSec a { color:#969696; text-decoration:underline; }
+#leftSec a:hover, #rightSec a:hover { text-decoration:none; }
+.noRmar { margin-right:0 !important; }
+/*------ general style ends ------*/
+
+/*------ header-section starts ------*/
+
+#header { width:100%; height:427px; float:left; padding:0 0 30px; }
+.top-section { height:75px; width:980px; position:absolute; z-index:20; margin:10px 0 0; }
+/* logo-section */
+.logo { width:331px; height:75px; position:absolute; }
+/* top-nav section */
+#topNav { width:630px; height:35px; float:right; margin:12px 0 0; }
+/*#topNav ul { width:auto; height:35px; float:right;}
+#topNav ul li { width:auto; height:35px; float:left; }
+#topNav ul li a { width:auto; height:35px; float:left; display:block; padding:0 21px; color:#fff; font:normal 14px/35px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; }
+#topNav ul li a:hover { color:#dbf102; }*/
+
+#jsddm { width:630px; height:35px; float:right; margin:12px 0 0; }
+#jsddm li { float:left; list-style:none; font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; }
+#jsddm li a { display:block; background:#324143; padding:5px 12px; text-decoration:none; border-right:1px solid white; width:70px; color:#EAFFED; white-space:nowrap }
+#jsddm li a:hover { background:#24313C }
+#jsddm li ul { margin:0; padding:0; position:absolute; visibility:hidden; border-top:1px solid white }
+#jsddm li ul li { float:none; display:inline }
+#jsddm li ul li a { width:auto; background:#A9C251; color:#24313C }
+#jsddm li ul li a:hover { background:#8EA344 }
+.cntbtn { width:auto; height:35px; float:right; }
+.cntbtn a { width:auto; height:35px; color:#fff; font:normal 14px/35px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; }
+.cntbtn a:hover { color:#dbf102; }
+/* banner-section */
+#bannerSpacer { width:980px; height:427px; position:relative; float:left; }
+/*------ header-section ends ------*/
+
+/*------ body-content section starts ------*/
+
+/* left-section */
+#leftSec { width:725px; float:left; margin:0 34px 82px 0; }
+#leftSec h1 { font:bold 20px/22px 'Trebuchet MS', Arial, Helvetica, sans-serif; text-transform:uppercase; color:#e1e1e1; margin:0 0 21px; }
+#leftSec h2 { font:normal 18px/22px 'Trebuchet MS', Arial, Helvetica, sans-serif; color:#e1e1e1; margin:0 0 21px; }
+#leftSec p { margin:0 0 20px; }
+#leftSec .left { width:345px; float:left; margin:0 34px 0 0; }
+#leftSec .right { width:346px; float:left; }
+#leftSec .sLink { margin:0 0 26px 13px; }
+#leftSec .sLink a { font:normal 14px/20px 'Trebuchet MS', Arial, Helvetica, sans-serif; text-decoration:none; background:url(../images/sLink_bullet.gif) no-repeat left center; padding:0 0 0 8px; }
+#leftSec .sLink a:hover { text-decoration:underline; }
+/* bread-crumbs section */
+.bdCrmb a { color:inherit; text-decoration:underline; }
+.bdCrmb a:hover { text-decoration:none; }
+/*right-section starts */
+#rightSec { width:221px; float:left; margin:0 0 114px; }
+#rightSec h2 { font:normal 17px/18px 'Trebuchet MS', Arial, Helvetica, sans-serif; margin:0 0 31px; color:#e1e1e1; }
+#rightSec .showcase {
+width:; float:left; margin:0 0 42px; }
+#rightSec .showcase li { width:105px; height:67px; float:left; margin:0 11px 19px 0; }
+#rightSec .icon { width:auto; float:left; }
+#rightSec .icon li { width:36px; height:33px; float:left; margin:0 9px 0 0; }
+/*------ body-content section ends ------*/
+
+/*------ footer section starts ------*/
+
+footer { height:329px; clear:both; background:url(../images/footer_bg.gif) repeat-x 0 0; padding:50px 0 0; }
+#footer { width:980px; margin:0 auto; }
+#footer section { width:221px; height:239px; float:left; overflow:hidden; margin:0 31px 0 0; }
+#footer section h2 { font:normal 17px/18px 'Trebuchet MS', Arial, Helvetica, sans-serif; margin:0 0 15px; color:#e1e1e1; }
+#footer nav { padding:18px 0 0; text-align:center; }
+#footer nav a { width:auto; height:20px; display:inline-block; font:normal 14px/20px 'Trebuchet MS', Arial, Helvetica, sans-serif; color:#6e6e6e; padding:0 10px; }
+#footer nav a:hover { color:#969696; }
+#footer .copy { text-align:center; }
+/*------ footer ends ------*/
+
+/*------ form-style starts ------*/
+
+#form { width:auto; float:left; }
+#form li { width:auto; float:left; clear:both; margin:0 0 25px; }
+#form li label { width:174px; height:24px; float:left; text-align:right; padding:0 31px 0 0; color:#8f8e8e; }
+#form li textarea { width:402px; height:50px; float:left; background:#282828; border:1px solid #727171; padding:3px; color:#727171; font:normal 11px/18px 'Trebuchet MS', Arial, Helvetica, sans-serif; }
+#form li input[type="text"] { width:291px; height:18px; float:left; background:#282828; border:1px solid #727171; padding:2px 3px; color:#727171; }
+#form li input[type="submit"] { width:84px; height:23px; float:left; background:#67870d; border:1px solid #466303; margin:0 0 0 205px; cursor:pointer; }
+/*------ form-style ends ------*/
+
+/*----- folio section starts -----*/
+
+#folio { width:100%; overflow:hidden; padding:0 0 30px; }
+#folio dl { width:230px; height:341px; float:left; overflow:hidden; margin:0 20px 0 0; }
+#folio .noRmar { margin-right:0 !important; }
+#folio dl dt { width:230px; height:168px; float:left; margin:0 0 20px; }
+#folio dl .name { width:230px; height:37px; float:left; padding:0 0 14px; border-bottom:1px dotted #a8b3b2; }
+#folio dl .name dl { width:230px; height:37px; float:left }
+#folio dl .name dl dt { width:37px; height:37px; float:left; margin:0 8px 0 0 }
+#folio dl .name dl dd { width:auto; height:37px; float:left; font:normal 11px/20px Georgia, "Times New Roman", Times, serif; color:#adafaf; text-transform:uppercase; }
+#folio dl .name dl dd strong { font:bold 14px/18px Georgia, "Times New Roman", Times, serif; color:#535454; text-transform:capitalize; }
+#folio dl .dtls { width:230px; height:55px; padding:8px 0; float:left; border-bottom:1px dotted #a8b3b2; clear:both; font:normal 13px/18px Georgia, "Times New Roman", Times, serif; color:#717374; }
+#folio dl .viewGal { background:url(../images/gallery_icon.gif) no-repeat 81px center; clear:both; padding:5px 0; }
+#folio dl .viewGal a { font:normal 13px/16px Georgia, "Times New Roman", Times, serif; color:#dbf102; }
+#folio dl .viewGal a:hover { color:#fff; }
+/*----- folio section ends -----*/
+
+/*----- folioweb section starts -----*/
+
+#folioweb { width:auto; overflow:hidden; }
+#folioweb dl { width:230px; height:391px; float:left; overflow:hidden; margin:0 20px 0 0; }
+#folioweb .noRmar { margin-right:0 !important; }
+#folioweb dl dt { width:230px; height:168px; float:left; margin:0 0 20px; }
+#folioweb dl .name { width:230px; height:37px; float:left; padding:0 0 14px; border-bottom:1px dotted #a8b3b2; }
+#folioweb dl .name dl { width:230px; height:37px; float:left }
+#folioweb dl .name dl dt { width:37px; height:37px; float:left; margin:0 8px 0 0 }
+#folioweb dl .name dl dd { width:auto; height:37px; float:left; font:normal 11px/20px Georgia, "Times New Roman", Times, serif; color:#adafaf; text-transform:uppercase; }
+#folioweb dl .name dl dd strong { font:normal 14px/18px Georgia, "Times New Roman", Times, serif; color:#535454; text-transform:capitalize; }
+#folioweb dl .dtls { width:230px; height:95px; padding:8px 0; float:left; border-bottom:1px dotted #a8b3b2; clear:both; font:normal 13px/18px Georgia, "Times New Roman", Times, serif; color:#717374; }
+#folioweb dl .viewGal { background:url(../images/gallery_icon.gif) no-repeat 81px center; clear:both; padding:15px 0; }
+#folioweb dl .viewGal a { font:normal 13px/16px Georgia, "Times New Roman", Times, serif; color:#dbf102; }
+#folioweb dl .viewGal a:hover { color:#fff; }
+/*----- folio section ends -----*/
+
+/*----- pagination section starts -----*/
+
+#pagination { width:140px; height:26px; float:right; position:relative; bottom:5px; right:0; text-align:right; }
+#pagination p { font:normal 13px/16px Georgia, "Times New Roman", Times, serif; color:#717374; }
+#pagination p a { padding:2px; color:#dbf102; }
+#pagination p a:hover { color:#fff; }
+/*----- pagination section ends -----*/
+
+#eXTReMe { width:0; height:0; overflow:hidden; position:absolute; }

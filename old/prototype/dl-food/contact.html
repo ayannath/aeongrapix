@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DL Food Service Design</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="plugins/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="plugins/superfish-mobile/superfish.js"></script>
+<script type="text/javascript" src="plugins/superfish-mobile/jquery.mobileselect.js"></script>
+<script type="text/javascript" src="plugins/superfish-mobile/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	// initialise menu
+	$('ul.sf-menu').superfish();
+	// initialise  slideshow
+	$('.flexslider').flexslider();
+	//mobile select menu
+	$('#mobileselect').mobileMenu({
+		switchWidth: 750, // at what size to begin showing the select box
+      	indentString: '' // how to indent the menu items in select box						  
+	});
+});
+</script>
+</head>
+
+<body>
+<!-- header section -->
+<div class="allWidth header">
+	<div class="mainDiv">
+		<div id="topnav" role="navigation">
+			<ul id="mobileselect">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="current-projects.html">Current Projects</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="serv-safe.html">Serv Safe</a></li>
+			</ul>
+		</div>
+		<div class="logo"><img src="images/logo.png" alt="" /></div>
+	</div>
+</div>
+<!-- / header section --> 
+
+<!-- body section -->
+<div class="allWidth body">
+	<div class="mainDiv">
+		<div class="allWidth hmBanner">
+			<ul class="s-net">
+				<li><a href="#url"><img src="images/icon_fb.png" alt="" /></a></li>
+				<li><a href="#url"><img src="images/icon_twt.png" alt="" /></a></li>
+			</ul>
+			<div class="bannerHldr"><img src="images/banner.jpg" alt="" /></div>
+		</div>
+		
+		<div class="allWidth bodySec">
+			<h2>Contact Us</h2>
+			
+			<!-- form holder -->
+			<div class="form_con">
+				<div class="formfld">
+					<label>Name </label>
+					<input type="text" name="terms[name]" id="name" class="textfld validate[required] text-input">
+				</div>
+				<div class="formfld">
+					<label>Email </label>
+					<input type="text" name="terms[email]" id="email" class="textfld validate[required,custom[email]] text-input">
+				</div>
+				<div class="formfld">
+					<label>Phone </label>
+					<input type="text" name="terms[phones]" id="phones" class="textfld validate[required] text-input">
+				</div>
+				<div class="formfld">
+					<label>Comments </label>
+					<textarea name="terms[comments]" id="comments" class="textarea validate[required] text-input"></textarea>
+				</div>
+				<div class="formfld">
+					<label>&nbsp;</label>
+					<input name="btnContact" type="submit" value="Submit" class="button">
+				</div>
+			</div>
+			<!-- / form holder --> 
+			
+			<!-- contact address -->
+			<div class="contact_info">
+				<p>Fox Chase<br />Fox Chase Drive<br />
+					Tinton Falls, New Jersey 07701<br /></p>
+				<p>Phone: 732-695-2121<br />Email: <a href="mailto:pabrams@monmouth.com">pabrams@monmouth.com</a></p>
+			</div>
+			<!-- / contact address -->
+			
+			<ul class="tagBtn">
+				<li><img src="images/tag_bg.png" alt="" /><a href="#url">HEALTHCARE &amp; INSTITUTIONAL</a></li>
+				<li><img src="images/tag_bg.png" alt="" /><a href="#url">RESTAURANTS &amp; BARS</a></li>
+				<li><img src="images/tag_bg.png" alt="" /><a href="#url">DESIGN &amp; CONSULTING</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- / body section --> 
+
+<!-- footer section -->
+<div class="allWidth footer">
+	<div class="mainDiv">
+		<ul class="ftrNav">
+			<li><a href="#url">HEALTHCARE &amp; INSTITUTIONAL</a></li>
+			<li><a href="#url">RESTAURANTS &amp; BARS</a></li>
+			<li><a href="#url">DESIGN &amp; CONSULTING</a></li>
+			<li><a href="#url">TERMS &amp; CONDITIONS</a></li>
+			<li><a href="#url">AREAS WE SERVE</a></li>
+			<li><a href="#url">MICRO MATIC</a></li>
+			<li><a href="#url">FIRST DATA RESTAURANT SOLUTION</a></li>
+			<li><a href="#url">REFERRAL</a></li>
+		</ul>
+		<br class="clear" />
+		<p>&copy; Copyright 2013 DL Foodservice Design</p>
+		<p>Powered by Wingman Planning</p>
+		<br class="clear" />
+	</div>
+</div>
+<!-- / footer section -->
+</body>
+</html>

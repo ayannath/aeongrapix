@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; border:none; list-style:none; text-decoration:none; }
+body { background:url(../images/body_bg.png) repeat-x #fff; font:normal 14px Arial, Helvetica, sans-serif; }
+.mainDiv { width:958px; margin:0 auto; }
+.clr { height:0; line-height:0; font-size:0; clear:both; }
+
+/*------ general-section ends ------*/
+
+/*------ top-section starts ------*/
+
+.topHldr { width:949px; margin:0 auto 35px; border:4px solid #fff; border-top:none; background:url(../images/main_pict.jpg) no-repeat center bottom #fff; border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; }
+.top { width:100%; height:70px; float:left; margin:0 0 28px; }
+.logo { width:281px; height:34px; float:left; margin:20px 0 0 20px; }
+.topLogin { width:480px; height:46px; float:right; margin:0 35px 0 0; padding:23px 0 0 25px; background:url(../images/login_bg.png) repeat-x #757575; border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; border:1px solid #a4a4a4; }
+.topLogin .form { width:auto; float:left; }
+.topLogin .form li { width:auto; float:left; margin:0 5px 0 0; }
+.topLogin .form label { font:bold 16px/22px Arial, Helvetica, sans-serif; color:#fff;  }
+.topLogin .form input[type="text"], .topLogin .form input[type="password"] { width:100px; height:23px; padding:0 8px; float:left; border:1px solid #898989; }
+.topLogin .form select { width:50px; height:23px; float:left; }
+.topLogin .form input[type="submit"] { width:30px; height:26px; float:left; background:#000; color:#fff; cursor:pointer; }
+.hide { font-size:0; line-height:0; text-indent:-9999px; }
+
+/*------ top-section ends ------*/
+
+/*------ registration-section starts ------*/
+
+.frmRht { width:384px; float:right; margin:0 55px 0 0; text-align:center; font:bold 20px/25px Arial, Helvetica, sans-serif; }
+.frm { width:353px; float:left; padding:0 15px 20px; margin:0 0 25px; border:1px solid #a4a4a4; background:#e7e7e7; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; }
+.frm h2 { font:bold 27px/50px Arial, Helvetica, sans-serif; text-align:center; text-transform:uppercase; border-bottom:1px solid #000; margin:0 0 20px; color:#b60000; }
+.frm h2 span { color:#000; }
+.frm .form { width:380px; margin:0 auto; font:normal 14px Arial, Helvetica, sans-serif; }
+.frm .form li { width:100%; float:left; margin:0 0 12px; }
+.frm .form label { width:110px; float:left; padding:0 10px 0 0; font:normal 14px Arial, Helvetica, sans-serif; text-align:left; }
+.frm .form input[type="text"], .form input[type="password"] { width:208px; height:22px; float:left; border:1px solid #707070; padding:0 5px; }
+.frm .form select { width:220px; height:25px; float:left; border:1px solid #707070; }
+.frm .form .sub li { width:auto; float:left; margin:0 12px 0 0; }
+.frm .form .sub input[type="text"] { width:53px; float:left; }
+.frm .form .chk { padding:0 0 0 120px; }
+.frm .form .chk input[type="checkbox"], .form .chk p { width:auto; float:left; margin:0 10px 0 0; }
+.frm .form .chk a { color:inherit; text-decoration:underline; }
+.frm .form .chk a:hover { text-decoration:none; }
+.frm .form .btn { width:175px; height:42px; float:left; color:#fff; font-size:18px; background:url(../images/submit-btn_bg.png) repeat-x #ed2368; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; margin:0 0 0 122px; cursor:pointer; text-transform:uppercase; }
+
+/*------ registration-section ends ------*/
+
+/*------ wrapper-section starts ------*/
+
+.wrapper { width:100%; float:left; }
+.wrapper h2 { font:normal 24px/30px Arial, Helvetica, sans-serif; color:#7d0000; }
+.wrapper h2 span { color:#000; }
+.wrapper p { font:normal 14px/18px Arial, Helvetica, sans-serif; }
+.wrprHldr { width:100%; float:left; border-bottom:1px solid #000; margin:10px 0 20px; }
+.wrprHldr dl { width:176px; height:205px; float:left; margin:0 7px; }
+.wrprHldr dl dt { margin:0 0 8px; }
+.wrprHldr dl dd p { text-align:center; font:normal 11px/16px Arial, Helvetica, sans-serif; }
+.wrprHldr dl dd p span { color:#1dae00; }
+.wrprHldr .link { width:300px; margin:0 auto; }
+.wrprHldr .link li { width:auto; float:left; font:normal 18px/38px Arial, Helvetica, sans-serif; text-shadow:1px 1px 2px #000; }
+.wrprHldr .link li a { width:auto; height:38px; display:block; float:left; margin:0 5px; padding:0 20px; background:url(../images/submit-btn_bg.png) repeat-x center center; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; color:#fff; text-transform:uppercase; }
+
+/*------ wrapper-section ends ------*/
+
+/*------ footer-section starts ------*/
+
+.footer { width:100%; text-align:center; font:normal 14px/20px Arial, Helvetica, sans-serif; }
+.footer a { color:inherit; margin:0 8px; }
+.footer a:hover { text-decoration:underline; }
+.bigTxt { font:bold 24px Arial, Helvetica, sans-serif; margin:0 0 10px; }
+
+/*------ footer-section ends ------*/
